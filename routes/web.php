@@ -1,11 +1,12 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', fn() => view('pages.home'))->name('home');
-Route::get('/generic', fn() => view('pages.generic'))->name('generic');
-Route::get('/elements', fn() => view('pages.elements'))->name('elements');
+Route::get('/home', [PageController::class, 'home'])->name('home');
+Route::get('/generic', [PageController::class, 'generic'])->name('generic');
+Route::get('/elements', [PageController::class, 'elements'])->name('elements');
