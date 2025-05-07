@@ -8,7 +8,7 @@
             <h1>Generic</h1>
         </header>
 
-        <span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+        <span class="image main"><img src="{{ asset('images/pic11.jpg') }}" alt="" /></span>
 
         <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor
             imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo
