@@ -15,6 +15,7 @@
             </header>
             <ul>
                 <li><a href="/home">Homepage</a></li>
+                <li><a href="/users">Users</a></li>
                 <li><a href="/generic">Generic</a></li>
                 <li><a href="/elements">Elements</a></li>
                 <li>
